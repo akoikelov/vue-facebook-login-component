@@ -99,7 +99,7 @@ export default {
       const login = fbLogin(this.loginOptions)
       const response = await this.doAsync(login)
       if (response.status === 'connected') {
-        this.connected = true
+        // this.connected = true
       } else {
         this.connected = false
       }
